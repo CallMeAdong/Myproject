@@ -1,0 +1,14 @@
+<?php
+class M1 extends CI_Model{
+	function getAllRecords($u,$p){
+	$where = "username= '".$u."' and pwd= '".$p."'";
+		$this->db->where($where);
+		$query = $this->db->get("logintbl");
+		return $query->result(); // return rows
+	
+	}
+
+}
+
+
+?>

@@ -1,0 +1,8 @@
+<html>
+<body>
+<?php
+    echo $abc."</br>";
+?>
+welcome to the first view
+</body>
+</html>

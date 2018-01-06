@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>login page</title>
+</head>
+<body>
+<form action="test/check" method="post">
+<p>username<input type="text" name="username"></p>
+<p>password<input type="password" name="userpwd"></p>
+<p><input type="submit" value="Login"></p>
+</body>
+</html>
